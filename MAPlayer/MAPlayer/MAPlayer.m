@@ -40,6 +40,14 @@ static MAPlayer *_instance;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         _instance = [super allocWithZone:zone];
+        
+#warning 注册后台播放事件
+        [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
+        if(![[AVAudioSession sharedInstance] setActive:YES error:nil])
+        {
+            NSLog(@"Failed to set up a session.");
+        }
+        
         // 添加代理
         [MANowPlayingControl sharedKFNowPlayingControl].delegate = _instance;
     });
@@ -84,12 +92,6 @@ static MAPlayer *_instance;
             // 准备好可以播放
             NSLog(@"AVPlayerStatusReadyToPlay");
             
-            // 记录状态
-            _isReady = YES;
-            if (_isPlaying) {
-                [self nowplaySetting];
-            }
-            
             // 获取视频总长度
             CMTime duration = self.playerItem.duration;
             
@@ -102,6 +104,13 @@ static MAPlayer *_instance;
             }
             NSLog(@"movie total duration:%f",CMTimeGetSeconds(duration));
             [self monitoringPlayback:self.playerItem];// 监听播放状态
+            
+            // 记录状态
+            _isReady = YES;
+            if (_isPlaying) {
+                [self nowplaySetting];
+            }
+            
         } else if ([playerItem status] == AVPlayerStatusFailed) {
             if ([self.delegate respondsToSelector:@selector(playerStatusFailedWithMAPlayer:)]) {
                 [self.delegate playerStatusFailedWithMAPlayer:self];

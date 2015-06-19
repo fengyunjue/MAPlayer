@@ -36,6 +36,8 @@ static MANowPlayingControl *_instance;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         _instance = [super allocWithZone:zone];
+#warning 注册远程控制事件
+        [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
     });
     return _instance;
 }

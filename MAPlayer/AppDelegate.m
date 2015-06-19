@@ -16,19 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-#warning 用于注册控制中心音乐播放器,不然调用nowplay会失败
-    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
-    if(![[AVAudioSession sharedInstance] setActive:YES error:nil])
-    {
-        NSLog(@"Failed to set up a session.");
-    }
-    [[UIApplication sharedApplication] beginReceivingRemoteControlEvents];
     
-#warning 用于注册后台播放
-    AVAudioSession *session = [AVAudioSession sharedInstance];
-    [session setActive:YES error:nil];
-    [session setCategory:AVAudioSessionCategoryPlayback error:nil];
-    return YES;
     return YES;
 }
 
