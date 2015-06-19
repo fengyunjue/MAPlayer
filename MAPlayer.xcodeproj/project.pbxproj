@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		842A9BEA1B32627A0021C7BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A9BE91B32627A0021C7BE /* main.m */; };
+		842A9BED1B32627A0021C7BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A9BEC1B32627A0021C7BE /* AppDelegate.m */; };
+		842A9BF01B32627A0021C7BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A9BEF1B32627A0021C7BE /* ViewController.m */; };
+		842A9BF31B32627A0021C7BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842A9BF11B32627A0021C7BE /* Main.storyboard */; };
+		842A9BF51B32627A0021C7BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842A9BF41B32627A0021C7BE /* Images.xcassets */; };
+		842A9BF81B32627A0021C7BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842A9BF61B32627A0021C7BE /* LaunchScreen.xib */; };
+		842A9C041B32627A0021C7BE /* MAPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A9C031B32627A0021C7BE /* MAPlayerTests.m */; };
+		842A9C151B32628B0021C7BE /* MANowPlayingControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A9C0F1B32628B0021C7BE /* MANowPlayingControl.m */; };
+		842A9C161B32628B0021C7BE /* MAApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A9C111B32628B0021C7BE /* MAApplication.m */; };
+		842A9C171B32628B0021C7BE /* MAMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A9C131B32628B0021C7BE /* MAMusic.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		842A9BFE1B32627A0021C7BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 842A9BDC1B32627A0021C7BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 842A9BE31B32627A0021C7BE;
+			remoteInfo = newplayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		842A9BE41B32627A0021C7BE /* MAPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842A9BE81B32627A0021C7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842A9BE91B32627A0021C7BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		842A9BEB1B32627A0021C7BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		842A9BEC1B32627A0021C7BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		842A9BEE1B32627A0021C7BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		842A9BEF1B32627A0021C7BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		842A9BF21B32627A0021C7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		842A9BF41B32627A0021C7BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		842A9BF71B32627A0021C7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		842A9BFD1B32627A0021C7BE /* MAPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		842A9C021B32627A0021C7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842A9C031B32627A0021C7BE /* MAPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAPlayerTests.m; sourceTree = "<group>"; };
+		842A9C0E1B32628B0021C7BE /* MANowPlayingControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANowPlayingControl.h; sourceTree = "<group>"; };
+		842A9C0F1B32628B0021C7BE /* MANowPlayingControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MANowPlayingControl.m; sourceTree = "<group>"; };
+		842A9C101B32628B0021C7BE /* MAApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAApplication.h; sourceTree = "<group>"; };
+		842A9C111B32628B0021C7BE /* MAApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAApplication.m; sourceTree = "<group>"; };
+		842A9C121B32628B0021C7BE /* MAMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMusic.h; sourceTree = "<group>"; };
+		842A9C131B32628B0021C7BE /* MAMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMusic.m; sourceTree = "<group>"; };
+		842A9C141B32628B0021C7BE /* MANotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANotifications.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842A9BE11B32627A0021C7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842A9BFA1B32627A0021C7BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		842A9BDB1B32627A0021C7BE = {
+			isa = PBXGroup;
+			children = (
+				842A9BE61B32627A0021C7BE /* MAplayer */,
+				842A9C001B32627A0021C7BE /* MAPlayerTests */,
+				842A9BE51B32627A0021C7BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		842A9BE51B32627A0021C7BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842A9BE41B32627A0021C7BE /* MAPlayer.app */,
+				842A9BFD1B32627A0021C7BE /* MAPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842A9BE61B32627A0021C7BE /* MAplayer */ = {
+			isa = PBXGroup;
+			children = (
+				842A9C0D1B32628B0021C7BE /* MAMusic */,
+				842A9BEB1B32627A0021C7BE /* AppDelegate.h */,
+				842A9BEC1B32627A0021C7BE /* AppDelegate.m */,
+				842A9BEE1B32627A0021C7BE /* ViewController.h */,
+				842A9BEF1B32627A0021C7BE /* ViewController.m */,
+				842A9BF11B32627A0021C7BE /* Main.storyboard */,
+				842A9BF41B32627A0021C7BE /* Images.xcassets */,
+				842A9BF61B32627A0021C7BE /* LaunchScreen.xib */,
+				842A9BE71B32627A0021C7BE /* Supporting Files */,
+			);
+			name = MAplayer;
+			path = newplayer;
+			sourceTree = "<group>";
+		};
+		842A9BE71B32627A0021C7BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				842A9BE81B32627A0021C7BE /* Info.plist */,
+				842A9BE91B32627A0021C7BE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		842A9C001B32627A0021C7BE /* MAPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				842A9C031B32627A0021C7BE /* MAPlayerTests.m */,
+				842A9C011B32627A0021C7BE /* Supporting Files */,
+			);
+			name = MAPlayerTests;
+			path = newplayerTests;
+			sourceTree = "<group>";
+		};
+		842A9C011B32627A0021C7BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				842A9C021B32627A0021C7BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		842A9C0D1B32628B0021C7BE /* MAMusic */ = {
+			isa = PBXGroup;
+			children = (
+				842A9C0E1B32628B0021C7BE /* MANowPlayingControl.h */,
+				842A9C0F1B32628B0021C7BE /* MANowPlayingControl.m */,
+				842A9C101B32628B0021C7BE /* MAApplication.h */,
+				842A9C111B32628B0021C7BE /* MAApplication.m */,
+				842A9C121B32628B0021C7BE /* MAMusic.h */,
+				842A9C131B32628B0021C7BE /* MAMusic.m */,
+				842A9C141B32628B0021C7BE /* MANotifications.h */,
+			);
+			path = MAMusic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842A9BE31B32627A0021C7BE /* MAPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842A9C071B32627A0021C7BE /* Build configuration list for PBXNativeTarget "MAPlayer" */;
+			buildPhases = (
+				842A9BE01B32627A0021C7BE /* Sources */,
+				842A9BE11B32627A0021C7BE /* Frameworks */,
+				842A9BE21B32627A0021C7BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAPlayer;
+			productName = newplayer;
+			productReference = 842A9BE41B32627A0021C7BE /* MAPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		842A9BFC1B32627A0021C7BE /* MAPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842A9C0A1B32627A0021C7BE /* Build configuration list for PBXNativeTarget "MAPlayerTests" */;
+			buildPhases = (
+				842A9BF91B32627A0021C7BE /* Sources */,
+				842A9BFA1B32627A0021C7BE /* Frameworks */,
+				842A9BFB1B32627A0021C7BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				842A9BFF1B32627A0021C7BE /* PBXTargetDependency */,
+			);
+			name = MAPlayerTests;
+			productName = newplayerTests;
+			productReference = 842A9BFD1B32627A0021C7BE /* MAPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842A9BDC1B32627A0021C7BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					842A9BE31B32627A0021C7BE = {
+						CreatedOnToolsVersion = 6.3.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					842A9BFC1B32627A0021C7BE = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 842A9BE31B32627A0021C7BE;
+					};
+				};
+			};
+			buildConfigurationList = 842A9BDF1B32627A0021C7BE /* Build configuration list for PBXProject "MAPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 842A9BDB1B32627A0021C7BE;
+			productRefGroup = 842A9BE51B32627A0021C7BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842A9BE31B32627A0021C7BE /* MAPlayer */,
+				842A9BFC1B32627A0021C7BE /* MAPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842A9BE21B32627A0021C7BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842A9BF31B32627A0021C7BE /* Main.storyboard in Resources */,
+				842A9BF81B32627A0021C7BE /* LaunchScreen.xib in Resources */,
+				842A9BF51B32627A0021C7BE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842A9BFB1B32627A0021C7BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842A9BE01B32627A0021C7BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842A9BF01B32627A0021C7BE /* ViewController.m in Sources */,
+				842A9BED1B32627A0021C7BE /* AppDelegate.m in Sources */,
+				842A9C151B32628B0021C7BE /* MANowPlayingControl.m in Sources */,
+				842A9C161B32628B0021C7BE /* MAApplication.m in Sources */,
+				842A9BEA1B32627A0021C7BE /* main.m in Sources */,
+				842A9C171B32628B0021C7BE /* MAMusic.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		842A9BF91B32627A0021C7BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842A9C041B32627A0021C7BE /* MAPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		842A9BFF1B32627A0021C7BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 842A9BE31B32627A0021C7BE /* MAPlayer */;
+			targetProxy = 842A9BFE1B32627A0021C7BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		842A9BF11B32627A0021C7BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842A9BF21B32627A0021C7BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		842A9BF61B32627A0021C7BE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842A9BF71B32627A0021C7BE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842A9C051B32627A0021C7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		842A9C061B32627A0021C7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842A9C081B32627A0021C7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = newplayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = MAPlayer;
+			};
+			name = Debug;
+		};
+		842A9C091B32627A0021C7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = newplayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = MAPlayer;
+			};
+			name = Release;
+		};
+		842A9C0B1B32627A0021C7BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = newplayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = MAPlayerTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/newplayer.app/newplayer";
+			};
+			name = Debug;
+		};
+		842A9C0C1B32627A0021C7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = newplayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = MAPlayerTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/newplayer.app/newplayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842A9BDF1B32627A0021C7BE /* Build configuration list for PBXProject "MAPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842A9C051B32627A0021C7BE /* Debug */,
+				842A9C061B32627A0021C7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842A9C071B32627A0021C7BE /* Build configuration list for PBXNativeTarget "MAPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842A9C081B32627A0021C7BE /* Debug */,
+				842A9C091B32627A0021C7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842A9C0A1B32627A0021C7BE /* Build configuration list for PBXNativeTarget "MAPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842A9C0B1B32627A0021C7BE /* Debug */,
+				842A9C0C1B32627A0021C7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842A9BDC1B32627A0021C7BE /* Project object */;
+}
