@@ -1,16 +1,16 @@
 //
-//  MAMusic.m
-//  kf5
+//  MAPlayer.m
+//  ma
 //
 //  Created by admin on 15/6/17.
 //  Copyright (c) 2015年 admin. All rights reserved.
 //
 
-#import "MAMusic.h"
+#import "MAPlayer.h"
 #import "MANowPlayingControl.h"
 
 
-@interface MAMusic()<KFNowPlayingControlDelegate>{
+@interface MAPlayer()<KFNowPlayingControlDelegate>{
     NSDateFormatter *_dateFormatter;
     // music是否已经加载完毕
     BOOL _isReady;
@@ -24,10 +24,10 @@
 
 @end
 
-@implementation MAMusic
+@implementation MAPlayer
 
-static MAMusic *_instance;
-+(instancetype)sharedMAMusic
+static MAPlayer *_instance;
++(instancetype)sharedMAPlayer
 {
     if (_instance == nil) {
         _instance = [[self alloc] init];
@@ -50,8 +50,8 @@ static MAMusic *_instance;
 {
     if (_musicURLStr && [musicUrlStr isEqualToString:_musicURLStr]) {
         if (!_isPlaying) [self play];
-        if ([self.delegate respondsToSelector:@selector(musicStatusReadyToPlayWithMAMusic:totalTime:)]) {
-            [self.delegate musicStatusReadyToPlayWithMAMusic:self totalTime:_totalTime];
+        if ([self.delegate respondsToSelector:@selector(playerStatusReadyToPlayWithMAPlayer:totalTime:)]) {
+            [self.delegate playerStatusReadyToPlayWithMAPlayer:self totalTime:_totalTime];
         }
     }else{
         if (self.player && self.playerItem) {
@@ -97,14 +97,14 @@ static MAMusic *_instance;
             _totalTimeSecond = @((int)totalSecond);
             
             _totalTime = [self convertTime:totalSecond];// 转换成播放时间
-            if ([self.delegate respondsToSelector:@selector(musicStatusReadyToPlayWithMAMusic:totalTime:)]) {
-                [self.delegate musicStatusReadyToPlayWithMAMusic:self totalTime:_totalTime];
+            if ([self.delegate respondsToSelector:@selector(playerStatusReadyToPlayWithMAPlayer:totalTime:)]) {
+                [self.delegate playerStatusReadyToPlayWithMAPlayer:self totalTime:_totalTime];
             }
             NSLog(@"movie total duration:%f",CMTimeGetSeconds(duration));
             [self monitoringPlayback:self.playerItem];// 监听播放状态
         } else if ([playerItem status] == AVPlayerStatusFailed) {
-            if ([self.delegate respondsToSelector:@selector(musicStatusFailedWithMAMusic:)]) {
-                [self.delegate musicStatusFailedWithMAMusic:self];
+            if ([self.delegate respondsToSelector:@selector(playerStatusFailedWithMAPlayer:)]) {
+                [self.delegate playerStatusFailedWithMAPlayer:self];
             }
             _isReady = NO;
             NSLog(@"AVPlayerStatusFailed");
@@ -128,8 +128,8 @@ static MAMusic *_instance;
         
         NSString *timeString = [weakSelf convertTime:currentSecond];
         
-        if ([weakSelf.delegate respondsToSelector:@selector(musicWithCurrentTimeRefreshWithCurrentTimeStr:)]) {
-            [weakSelf.delegate musicWithCurrentTimeRefreshWithCurrentTimeStr:timeString];
+        if ([weakSelf.delegate respondsToSelector:@selector(playerWithCurrentTimeRefreshWithMAPlayer:currentTimeStr:)]) {
+            [weakSelf.delegate playerWithCurrentTimeRefreshWithMAPlayer:weakSelf currentTimeStr:timeString];
         }
     }];
 }
@@ -140,8 +140,8 @@ static MAMusic *_instance;
     
     __weak typeof(self) weakSelf = self;
     [self.player seekToTime:kCMTimeZero completionHandler:^(BOOL finished) {
-        if ([weakSelf.delegate respondsToSelector:@selector(musicWithPlayEnd)]) {
-            [weakSelf.delegate musicWithPlayEnd];
+        if ([weakSelf.delegate respondsToSelector:@selector(playerWithPlayEndWithMAPlayer:)]) {
+            [weakSelf.delegate playerWithPlayEndWithMAPlayer:self];
         }
     }];
 }

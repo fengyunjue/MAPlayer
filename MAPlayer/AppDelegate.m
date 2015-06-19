@@ -1,14 +1,13 @@
 //
 //  AppDelegate.m
-//  newplayer
+//  MAPlayer
 //
-//  Created by admin on 15/6/18.
+//  Created by admin on 15/6/19.
 //  Copyright (c) 2015年 admin. All rights reserved.
 //
 
 #import "AppDelegate.h"
 #import <AVFoundation/AVFoundation.h>
-
 @interface AppDelegate ()
 
 @end
@@ -29,6 +28,7 @@
     AVAudioSession *session = [AVAudioSession sharedInstance];
     [session setActive:YES error:nil];
     [session setCategory:AVAudioSessionCategoryPlayback error:nil];
+    return YES;
     return YES;
 }
 

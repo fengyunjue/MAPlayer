@@ -1,8 +1,8 @@
 //
 //  main.m
-//  newplayer
+//  MAPlayer
 //
-//  Created by admin on 15/6/18.
+//  Created by admin on 15/6/19.
 //  Copyright (c) 2015年 admin. All rights reserved.
 //
 

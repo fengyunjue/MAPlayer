@@ -1,21 +1,21 @@
 //
 //  ViewController.m
-//  newplayer
+//  MAPlayer
 //
-//  Created by admin on 15/6/18.
+//  Created by admin on 15/6/19.
 //  Copyright (c) 2015年 admin. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "MAMusic.h"
+#import "MAPlayer.h"
 
 
-@interface ViewController ()<MAMusicDelegate>
+@interface ViewController ()<MAPlayerDelegate>
 
 @property (weak, nonatomic) IBOutlet UILabel *currentTimeLabel;
 @property (weak, nonatomic) IBOutlet UILabel *totalTimeLabel;
 
-@property (nonatomic, strong) MAMusic *music;
+@property (nonatomic, strong) MAPlayer *music;
 
 @end
 
@@ -24,13 +24,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *str = @"http://tingge.5nd.com/20060919/2015/2015-6-17/67508/1.Mp3";
+    NSString *str = @"http://sc1.111ttt.com/2015/1/06/19/99191406038.mp3";
     
-    self.music = [MAMusic sharedMAMusic];
+    self.music = [MAPlayer sharedMAPlayer];
     self.music.delegate = self;
     [self.music loadMusicWithMusicURL:str];
-    [self.music setTitle:str artist:@"你是我心里的宝" albumTitle:@"乐凡"];
-
+    [self.music setTitle:str artist:@"我们的爱" albumTitle:@"花儿乐队"];
+    
 }
 
 - (IBAction)play:(id)sender {
@@ -40,13 +40,13 @@
     [self.music pause];
 }
 
-#pragma mark MAMusicDelegate
-- (void)musicWithCurrentTimeRefreshWithCurrentTimeStr:(NSString *)currentTimeStr
+#pragma mark MAPlayerDelegate
+- (void)playerWithCurrentTimeRefreshWithMAPlayer:(MAPlayer *)player currentTimeStr:(NSString *)currentTimeStr
 {
     self.currentTimeLabel.text = currentTimeStr;
 }
 
-- (void)musicWithPlayEnd
+- (void)playerWithPlayEndWithMAPlayer:(MAPlayer *)player
 {
     UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Player did reach end."
                                                    message:nil
@@ -55,12 +55,12 @@
                                          otherButtonTitles:nil, nil];
     [alert show];
 }
-- (void)musicStatusReadyToPlayWithMAMusic:(MAMusic *)music totalTime:(NSString *)totalTime
+- (void)playerStatusReadyToPlayWithMAPlayer:(MAPlayer *)player totalTime:(NSString *)totalTime
 {
     self.totalTimeLabel.text = totalTime;
 }
 
-- (void)musicStatusFailedWithMAMusic:(MAMusic *)music
+- (void)playerStatusFailedWithMAPlayer:(MAPlayer *)player
 {
     [[[UIAlertView alloc]initWithTitle:@"提示" message:@"加载音乐失败" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil]show];
 }

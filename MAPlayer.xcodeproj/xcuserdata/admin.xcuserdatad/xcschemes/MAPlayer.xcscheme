@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "842A9BE31B32627A0021C7BE"
+               BlueprintIdentifier = "841785001B33F79100754852"
                BuildableName = "MAPlayer.app"
                BlueprintName = "MAPlayer"
                ReferencedContainer = "container:MAPlayer.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "842A9BFC1B32627A0021C7BE"
+               BlueprintIdentifier = "841785191B33F79100754852"
                BuildableName = "MAPlayerTests.xctest"
                BlueprintName = "MAPlayerTests"
                ReferencedContainer = "container:MAPlayer.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "842A9BFC1B32627A0021C7BE"
+               BlueprintIdentifier = "841785191B33F79100754852"
                BuildableName = "MAPlayerTests.xctest"
                BlueprintName = "MAPlayerTests"
                ReferencedContainer = "container:MAPlayer.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "842A9BE31B32627A0021C7BE"
+            BlueprintIdentifier = "841785001B33F79100754852"
             BuildableName = "MAPlayer.app"
             BlueprintName = "MAPlayer"
             ReferencedContainer = "container:MAPlayer.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "842A9BE31B32627A0021C7BE"
+            BlueprintIdentifier = "841785001B33F79100754852"
             BuildableName = "MAPlayer.app"
             BlueprintName = "MAPlayer"
             ReferencedContainer = "container:MAPlayer.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "842A9BE31B32627A0021C7BE"
+            BlueprintIdentifier = "841785001B33F79100754852"
             BuildableName = "MAPlayer.app"
             BlueprintName = "MAPlayer"
             ReferencedContainer = "container:MAPlayer.xcodeproj">

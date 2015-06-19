@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>newplayer.xcscheme</key>
+		<key>MAPlayer.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>842A9BE31B32627A0021C7BE</key>
+		<key>841785001B33F79100754852</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>842A9BFC1B32627A0021C7BE</key>
+		<key>841785191B33F79100754852</key>
 		<dict>
 			<key>primary</key>
 			<true/>

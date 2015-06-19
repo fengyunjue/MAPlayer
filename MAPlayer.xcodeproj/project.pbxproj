@@ -7,60 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		842A9BEA1B32627A0021C7BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A9BE91B32627A0021C7BE /* main.m */; };
-		842A9BED1B32627A0021C7BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A9BEC1B32627A0021C7BE /* AppDelegate.m */; };
-		842A9BF01B32627A0021C7BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A9BEF1B32627A0021C7BE /* ViewController.m */; };
-		842A9BF31B32627A0021C7BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842A9BF11B32627A0021C7BE /* Main.storyboard */; };
-		842A9BF51B32627A0021C7BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842A9BF41B32627A0021C7BE /* Images.xcassets */; };
-		842A9BF81B32627A0021C7BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842A9BF61B32627A0021C7BE /* LaunchScreen.xib */; };
-		842A9C041B32627A0021C7BE /* MAPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A9C031B32627A0021C7BE /* MAPlayerTests.m */; };
-		842A9C151B32628B0021C7BE /* MANowPlayingControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A9C0F1B32628B0021C7BE /* MANowPlayingControl.m */; };
-		842A9C161B32628B0021C7BE /* MAApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A9C111B32628B0021C7BE /* MAApplication.m */; };
-		842A9C171B32628B0021C7BE /* MAMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A9C131B32628B0021C7BE /* MAMusic.m */; };
+		841785071B33F79100754852 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 841785061B33F79100754852 /* main.m */; };
+		8417850A1B33F79100754852 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 841785091B33F79100754852 /* AppDelegate.m */; };
+		8417850D1B33F79100754852 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417850C1B33F79100754852 /* ViewController.m */; };
+		841785121B33F79100754852 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841785111B33F79100754852 /* Images.xcassets */; };
+		841785151B33F79100754852 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841785131B33F79100754852 /* LaunchScreen.xib */; };
+		841785211B33F79100754852 /* MAPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841785201B33F79100754852 /* MAPlayerTests.m */; };
+		841785321B33F7C800754852 /* MAApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417852C1B33F7C800754852 /* MAApplication.m */; };
+		841785331B33F7C800754852 /* MAPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417852E1B33F7C800754852 /* MAPlayer.m */; };
+		841785341B33F7C800754852 /* MANowPlayingControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 841785311B33F7C800754852 /* MANowPlayingControl.m */; };
+		841785361B33FA0D00754852 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841785351B33FA0D00754852 /* Main.storyboard */; };
+		841785381B33FA4900754852 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 841785371B33FA4900754852 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		842A9BFE1B32627A0021C7BE /* PBXContainerItemProxy */ = {
+		8417851B1B33F79100754852 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 842A9BDC1B32627A0021C7BE /* Project object */;
+			containerPortal = 841784F91B33F79100754852 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 842A9BE31B32627A0021C7BE;
-			remoteInfo = newplayer;
+			remoteGlobalIDString = 841785001B33F79100754852;
+			remoteInfo = MAPlayer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		842A9BE41B32627A0021C7BE /* MAPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		842A9BE81B32627A0021C7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		842A9BE91B32627A0021C7BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		842A9BEB1B32627A0021C7BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		842A9BEC1B32627A0021C7BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		842A9BEE1B32627A0021C7BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		842A9BEF1B32627A0021C7BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		842A9BF21B32627A0021C7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		842A9BF41B32627A0021C7BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		842A9BF71B32627A0021C7BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		842A9BFD1B32627A0021C7BE /* MAPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		842A9C021B32627A0021C7BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		842A9C031B32627A0021C7BE /* MAPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAPlayerTests.m; sourceTree = "<group>"; };
-		842A9C0E1B32628B0021C7BE /* MANowPlayingControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANowPlayingControl.h; sourceTree = "<group>"; };
-		842A9C0F1B32628B0021C7BE /* MANowPlayingControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MANowPlayingControl.m; sourceTree = "<group>"; };
-		842A9C101B32628B0021C7BE /* MAApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAApplication.h; sourceTree = "<group>"; };
-		842A9C111B32628B0021C7BE /* MAApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAApplication.m; sourceTree = "<group>"; };
-		842A9C121B32628B0021C7BE /* MAMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAMusic.h; sourceTree = "<group>"; };
-		842A9C131B32628B0021C7BE /* MAMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAMusic.m; sourceTree = "<group>"; };
-		842A9C141B32628B0021C7BE /* MANotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANotifications.h; sourceTree = "<group>"; };
+		841785011B33F79100754852 /* MAPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841785051B33F79100754852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841785061B33F79100754852 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		841785081B33F79100754852 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		841785091B33F79100754852 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8417850B1B33F79100754852 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8417850C1B33F79100754852 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		841785111B33F79100754852 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		841785141B33F79100754852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8417851A1B33F79100754852 /* MAPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8417851F1B33F79100754852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841785201B33F79100754852 /* MAPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAPlayerTests.m; sourceTree = "<group>"; };
+		8417852B1B33F7C800754852 /* MAApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAApplication.h; sourceTree = "<group>"; };
+		8417852C1B33F7C800754852 /* MAApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAApplication.m; sourceTree = "<group>"; };
+		8417852D1B33F7C800754852 /* MAPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAPlayer.h; sourceTree = "<group>"; };
+		8417852E1B33F7C800754852 /* MAPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAPlayer.m; sourceTree = "<group>"; };
+		8417852F1B33F7C800754852 /* MANotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANotifications.h; sourceTree = "<group>"; };
+		841785301B33F7C800754852 /* MANowPlayingControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MANowPlayingControl.h; sourceTree = "<group>"; };
+		841785311B33F7C800754852 /* MANowPlayingControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MANowPlayingControl.m; sourceTree = "<group>"; };
+		841785351B33FA0D00754852 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		841785371B33FA4900754852 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		842A9BE11B32627A0021C7BE /* Frameworks */ = {
+		841784FE1B33F79100754852 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841785381B33FA4900754852 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		842A9BFA1B32627A0021C7BE /* Frameworks */ = {
+		841785171B33F79100754852 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -70,130 +73,129 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		842A9BDB1B32627A0021C7BE = {
+		841784F81B33F79100754852 = {
 			isa = PBXGroup;
 			children = (
-				842A9BE61B32627A0021C7BE /* MAplayer */,
-				842A9C001B32627A0021C7BE /* MAPlayerTests */,
-				842A9BE51B32627A0021C7BE /* Products */,
+				841785031B33F79100754852 /* MAPlayer */,
+				8417851D1B33F79100754852 /* MAPlayerTests */,
+				841785021B33F79100754852 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		842A9BE51B32627A0021C7BE /* Products */ = {
+		841785021B33F79100754852 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				842A9BE41B32627A0021C7BE /* MAPlayer.app */,
-				842A9BFD1B32627A0021C7BE /* MAPlayerTests.xctest */,
+				841785011B33F79100754852 /* MAPlayer.app */,
+				8417851A1B33F79100754852 /* MAPlayerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		842A9BE61B32627A0021C7BE /* MAplayer */ = {
+		841785031B33F79100754852 /* MAPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				842A9C0D1B32628B0021C7BE /* MAMusic */,
-				842A9BEB1B32627A0021C7BE /* AppDelegate.h */,
-				842A9BEC1B32627A0021C7BE /* AppDelegate.m */,
-				842A9BEE1B32627A0021C7BE /* ViewController.h */,
-				842A9BEF1B32627A0021C7BE /* ViewController.m */,
-				842A9BF11B32627A0021C7BE /* Main.storyboard */,
-				842A9BF41B32627A0021C7BE /* Images.xcassets */,
-				842A9BF61B32627A0021C7BE /* LaunchScreen.xib */,
-				842A9BE71B32627A0021C7BE /* Supporting Files */,
+				8417852A1B33F7C800754852 /* MAPlayer */,
+				841785081B33F79100754852 /* AppDelegate.h */,
+				841785091B33F79100754852 /* AppDelegate.m */,
+				8417850B1B33F79100754852 /* ViewController.h */,
+				8417850C1B33F79100754852 /* ViewController.m */,
+				841785111B33F79100754852 /* Images.xcassets */,
+				841785131B33F79100754852 /* LaunchScreen.xib */,
+				841785351B33FA0D00754852 /* Main.storyboard */,
+				841785041B33F79100754852 /* Supporting Files */,
 			);
-			name = MAplayer;
-			path = newplayer;
+			path = MAPlayer;
 			sourceTree = "<group>";
 		};
-		842A9BE71B32627A0021C7BE /* Supporting Files */ = {
+		841785041B33F79100754852 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				842A9BE81B32627A0021C7BE /* Info.plist */,
-				842A9BE91B32627A0021C7BE /* main.m */,
+				841785371B33FA4900754852 /* AVFoundation.framework */,
+				841785051B33F79100754852 /* Info.plist */,
+				841785061B33F79100754852 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		842A9C001B32627A0021C7BE /* MAPlayerTests */ = {
+		8417851D1B33F79100754852 /* MAPlayerTests */ = {
 			isa = PBXGroup;
 			children = (
-				842A9C031B32627A0021C7BE /* MAPlayerTests.m */,
-				842A9C011B32627A0021C7BE /* Supporting Files */,
+				841785201B33F79100754852 /* MAPlayerTests.m */,
+				8417851E1B33F79100754852 /* Supporting Files */,
 			);
-			name = MAPlayerTests;
-			path = newplayerTests;
+			path = MAPlayerTests;
 			sourceTree = "<group>";
 		};
-		842A9C011B32627A0021C7BE /* Supporting Files */ = {
+		8417851E1B33F79100754852 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				842A9C021B32627A0021C7BE /* Info.plist */,
+				8417851F1B33F79100754852 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		842A9C0D1B32628B0021C7BE /* MAMusic */ = {
+		8417852A1B33F7C800754852 /* MAPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				842A9C0E1B32628B0021C7BE /* MANowPlayingControl.h */,
-				842A9C0F1B32628B0021C7BE /* MANowPlayingControl.m */,
-				842A9C101B32628B0021C7BE /* MAApplication.h */,
-				842A9C111B32628B0021C7BE /* MAApplication.m */,
-				842A9C121B32628B0021C7BE /* MAMusic.h */,
-				842A9C131B32628B0021C7BE /* MAMusic.m */,
-				842A9C141B32628B0021C7BE /* MANotifications.h */,
+				8417852B1B33F7C800754852 /* MAApplication.h */,
+				8417852C1B33F7C800754852 /* MAApplication.m */,
+				8417852D1B33F7C800754852 /* MAPlayer.h */,
+				8417852E1B33F7C800754852 /* MAPlayer.m */,
+				8417852F1B33F7C800754852 /* MANotifications.h */,
+				841785301B33F7C800754852 /* MANowPlayingControl.h */,
+				841785311B33F7C800754852 /* MANowPlayingControl.m */,
 			);
-			path = MAMusic;
+			path = MAPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		842A9BE31B32627A0021C7BE /* MAPlayer */ = {
+		841785001B33F79100754852 /* MAPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 842A9C071B32627A0021C7BE /* Build configuration list for PBXNativeTarget "MAPlayer" */;
+			buildConfigurationList = 841785241B33F79100754852 /* Build configuration list for PBXNativeTarget "MAPlayer" */;
 			buildPhases = (
-				842A9BE01B32627A0021C7BE /* Sources */,
-				842A9BE11B32627A0021C7BE /* Frameworks */,
-				842A9BE21B32627A0021C7BE /* Resources */,
+				841784FD1B33F79100754852 /* Sources */,
+				841784FE1B33F79100754852 /* Frameworks */,
+				841784FF1B33F79100754852 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MAPlayer;
-			productName = newplayer;
-			productReference = 842A9BE41B32627A0021C7BE /* MAPlayer.app */;
+			productName = MAPlayer;
+			productReference = 841785011B33F79100754852 /* MAPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		842A9BFC1B32627A0021C7BE /* MAPlayerTests */ = {
+		841785191B33F79100754852 /* MAPlayerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 842A9C0A1B32627A0021C7BE /* Build configuration list for PBXNativeTarget "MAPlayerTests" */;
+			buildConfigurationList = 841785271B33F79100754852 /* Build configuration list for PBXNativeTarget "MAPlayerTests" */;
 			buildPhases = (
-				842A9BF91B32627A0021C7BE /* Sources */,
-				842A9BFA1B32627A0021C7BE /* Frameworks */,
-				842A9BFB1B32627A0021C7BE /* Resources */,
+				841785161B33F79100754852 /* Sources */,
+				841785171B33F79100754852 /* Frameworks */,
+				841785181B33F79100754852 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				842A9BFF1B32627A0021C7BE /* PBXTargetDependency */,
+				8417851C1B33F79100754852 /* PBXTargetDependency */,
 			);
 			name = MAPlayerTests;
-			productName = newplayerTests;
-			productReference = 842A9BFD1B32627A0021C7BE /* MAPlayerTests.xctest */;
+			productName = MAPlayerTests;
+			productReference = 8417851A1B33F79100754852 /* MAPlayerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		842A9BDC1B32627A0021C7BE /* Project object */ = {
+		841784F91B33F79100754852 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = admin;
 				TargetAttributes = {
-					842A9BE31B32627A0021C7BE = {
+					841785001B33F79100754852 = {
 						CreatedOnToolsVersion = 6.3.2;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
@@ -201,13 +203,13 @@
 							};
 						};
 					};
-					842A9BFC1B32627A0021C7BE = {
+					841785191B33F79100754852 = {
 						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = 842A9BE31B32627A0021C7BE;
+						TestTargetID = 841785001B33F79100754852;
 					};
 				};
 			};
-			buildConfigurationList = 842A9BDF1B32627A0021C7BE /* Build configuration list for PBXProject "MAPlayer" */;
+			buildConfigurationList = 841784FC1B33F79100754852 /* Build configuration list for PBXProject "MAPlayer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -215,29 +217,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 842A9BDB1B32627A0021C7BE;
-			productRefGroup = 842A9BE51B32627A0021C7BE /* Products */;
+			mainGroup = 841784F81B33F79100754852;
+			productRefGroup = 841785021B33F79100754852 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				842A9BE31B32627A0021C7BE /* MAPlayer */,
-				842A9BFC1B32627A0021C7BE /* MAPlayerTests */,
+				841785001B33F79100754852 /* MAPlayer */,
+				841785191B33F79100754852 /* MAPlayerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		842A9BE21B32627A0021C7BE /* Resources */ = {
+		841784FF1B33F79100754852 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842A9BF31B32627A0021C7BE /* Main.storyboard in Resources */,
-				842A9BF81B32627A0021C7BE /* LaunchScreen.xib in Resources */,
-				842A9BF51B32627A0021C7BE /* Images.xcassets in Resources */,
+				841785361B33FA0D00754852 /* Main.storyboard in Resources */,
+				841785151B33F79100754852 /* LaunchScreen.xib in Resources */,
+				841785121B33F79100754852 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		842A9BFB1B32627A0021C7BE /* Resources */ = {
+		841785181B33F79100754852 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -247,50 +249,42 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		842A9BE01B32627A0021C7BE /* Sources */ = {
+		841784FD1B33F79100754852 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842A9BF01B32627A0021C7BE /* ViewController.m in Sources */,
-				842A9BED1B32627A0021C7BE /* AppDelegate.m in Sources */,
-				842A9C151B32628B0021C7BE /* MANowPlayingControl.m in Sources */,
-				842A9C161B32628B0021C7BE /* MAApplication.m in Sources */,
-				842A9BEA1B32627A0021C7BE /* main.m in Sources */,
-				842A9C171B32628B0021C7BE /* MAMusic.m in Sources */,
+				841785321B33F7C800754852 /* MAApplication.m in Sources */,
+				841785331B33F7C800754852 /* MAPlayer.m in Sources */,
+				8417850D1B33F79100754852 /* ViewController.m in Sources */,
+				841785341B33F7C800754852 /* MANowPlayingControl.m in Sources */,
+				8417850A1B33F79100754852 /* AppDelegate.m in Sources */,
+				841785071B33F79100754852 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		842A9BF91B32627A0021C7BE /* Sources */ = {
+		841785161B33F79100754852 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				842A9C041B32627A0021C7BE /* MAPlayerTests.m in Sources */,
+				841785211B33F79100754852 /* MAPlayerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		842A9BFF1B32627A0021C7BE /* PBXTargetDependency */ = {
+		8417851C1B33F79100754852 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 842A9BE31B32627A0021C7BE /* MAPlayer */;
-			targetProxy = 842A9BFE1B32627A0021C7BE /* PBXContainerItemProxy */;
+			target = 841785001B33F79100754852 /* MAPlayer */;
+			targetProxy = 8417851B1B33F79100754852 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		842A9BF11B32627A0021C7BE /* Main.storyboard */ = {
+		841785131B33F79100754852 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				842A9BF21B32627A0021C7BE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		842A9BF61B32627A0021C7BE /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				842A9BF71B32627A0021C7BE /* Base */,
+				841785141B33F79100754852 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -298,7 +292,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		842A9C051B32627A0021C7BE /* Debug */ = {
+		841785221B33F79100754852 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -342,7 +336,7 @@
 			};
 			name = Debug;
 		};
-		842A9C061B32627A0021C7BE /* Release */ = {
+		841785231B33F79100754852 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,31 +374,31 @@
 			};
 			name = Release;
 		};
-		842A9C081B32627A0021C7BE /* Debug */ = {
+		841785251B33F79100754852 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = newplayer/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				INFOPLIST_FILE = MAPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = MAPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		842A9C091B32627A0021C7BE /* Release */ = {
+		841785261B33F79100754852 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = newplayer/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				INFOPLIST_FILE = MAPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = MAPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		842A9C0B1B32627A0021C7BE /* Debug */ = {
+		841785281B33F79100754852 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -416,14 +410,14 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = newplayerTests/Info.plist;
+				INFOPLIST_FILE = MAPlayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = MAPlayerTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/newplayer.app/newplayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAPlayer.app/MAPlayer";
 			};
 			name = Debug;
 		};
-		842A9C0C1B32627A0021C7BE /* Release */ = {
+		841785291B33F79100754852 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -431,44 +425,42 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = newplayerTests/Info.plist;
+				INFOPLIST_FILE = MAPlayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = MAPlayerTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/newplayer.app/newplayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAPlayer.app/MAPlayer";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		842A9BDF1B32627A0021C7BE /* Build configuration list for PBXProject "MAPlayer" */ = {
+		841784FC1B33F79100754852 /* Build configuration list for PBXProject "MAPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				842A9C051B32627A0021C7BE /* Debug */,
-				842A9C061B32627A0021C7BE /* Release */,
+				841785221B33F79100754852 /* Debug */,
+				841785231B33F79100754852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		842A9C071B32627A0021C7BE /* Build configuration list for PBXNativeTarget "MAPlayer" */ = {
+		841785241B33F79100754852 /* Build configuration list for PBXNativeTarget "MAPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				842A9C081B32627A0021C7BE /* Debug */,
-				842A9C091B32627A0021C7BE /* Release */,
+				841785251B33F79100754852 /* Debug */,
+				841785261B33F79100754852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		842A9C0A1B32627A0021C7BE /* Build configuration list for PBXNativeTarget "MAPlayerTests" */ = {
+		841785271B33F79100754852 /* Build configuration list for PBXNativeTarget "MAPlayerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				842A9C0B1B32627A0021C7BE /* Debug */,
-				842A9C0C1B32627A0021C7BE /* Release */,
+				841785281B33F79100754852 /* Debug */,
+				841785291B33F79100754852 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 842A9BDC1B32627A0021C7BE /* Project object */;
+	rootObject = 841784F91B33F79100754852 /* Project object */;
 }

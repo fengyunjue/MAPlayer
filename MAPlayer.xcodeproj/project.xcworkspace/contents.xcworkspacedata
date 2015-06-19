@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/admin/Pictures/demo/&#x97f3;&#x9891;&#x6d4b;&#x8bd5;&#x4ee3;&#x7801;/newplayer/MAPlayer.xcodeproj">
+      location = "self:MAPlayer.xcodeproj">
    </FileRef>
 </Workspace>
