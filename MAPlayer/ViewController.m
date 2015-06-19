@@ -24,12 +24,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *str = @"http://sc1.111ttt.com/2015/1/06/19/99191406038.mp3";
-    
+    NSString *str = @"http://125.70.12.9:2873/123456.wav";
     self.music = [MAPlayer sharedMAPlayer];
     self.music.delegate = self;
     [self.music loadMusicWithMusicURL:str];
-    [self.music setTitle:str artist:@"我们的爱" albumTitle:@"花儿乐队"];
+    [self.music setTitle:str artist:@"恰似你的温柔" albumTitle:@"邓丽君"];
     
 }
 
