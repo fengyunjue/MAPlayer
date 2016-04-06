@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "MAPlayer"
-s.version          = "0.0.1"
+s.version          = "0.0.1s"
 s.summary          = "简单的在线播放器，可后台播放，支持MPNowPlayingInfoCenter."
 
 s.description      = <<-DESC
