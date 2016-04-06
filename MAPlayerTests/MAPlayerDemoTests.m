@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface MAPlayerTests : XCTestCase
+@interface MAPlayerDemoTests : XCTestCase
 
 @end
 
-@implementation MAPlayerTests
+@implementation MAPlayerDemoTests
 
 - (void)setUp {
     [super setUp];
