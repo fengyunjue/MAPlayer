@@ -12,7 +12,7 @@
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
-#warning 添加MAApplication
+//添加MAApplication
         return UIApplicationMain(argc, argv, NSStringFromClass([MAApplication class]), NSStringFromClass([AppDelegate class]));
     }
 }

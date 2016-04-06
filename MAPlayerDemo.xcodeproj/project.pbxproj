@@ -192,7 +192,7 @@
 		841784F91B33F79100754852 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = admin;
 				TargetAttributes = {
 					841785001B33F79100754852 = {
@@ -313,6 +313,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -382,6 +383,7 @@
 				INFOPLIST_FILE = MAPlayerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ma.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = MAPlayerDemo;
 			};
 			name = Debug;
@@ -394,6 +396,7 @@
 				INFOPLIST_FILE = MAPlayerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ma.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = MAPlayerDemo;
 			};
 			name = Release;
@@ -412,6 +415,7 @@
 				);
 				INFOPLIST_FILE = MAPlayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ma.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = MAPlayerDemo;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAPlayerDemo.app/MAPlayerDemo";
 			};
@@ -427,6 +431,7 @@
 				);
 				INFOPLIST_FILE = MAPlayerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ma.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = MAPlayerDemo;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAPlayerDemo.app/MAPlayerDemo";
 			};

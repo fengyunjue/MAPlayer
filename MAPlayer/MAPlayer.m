@@ -41,7 +41,7 @@ static MAPlayer *_instance;
     dispatch_once(&onceToken, ^{
         _instance = [super allocWithZone:zone];
         
-#warning 注册后台播放事件
+//注册后台播放事件
         [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:nil];
         if(![[AVAudioSession sharedInstance] setActive:YES error:nil])
         {
